@@ -1,4 +1,4 @@
-# DatingAppSPA
+# HRAssessment-SPA
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
@@ -26,7 +26,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-Bibliography:
+Setup system:
+Open Terminal: (Ctrl+~) in Visual Studio Code
+run command: npm install (to restore the packages)
+run command: ng build (to build the angular application)
+run command: ng serve (to run the angular application)
+
+## Bibliography
 Implement structure:
 https://dev.to/dileno/build-a-simple-crud-app-with-angular-8-and-asp-net-core-2-2-part-1-back-end-39e1
 
