@@ -27,10 +27,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 Setup system:
-Open Terminal: (Ctrl+~) in Visual Studio Code
-run command: npm install (to restore the packages)
-run command: ng build (to build the angular application)
-run command: ng serve (to run the angular application)
+Open Terminal: (Ctrl+~) in Visual Studio Code<br/>
+run command: npm install (to restore the packages)<br/>
+run command: ng build (to build the angular application)<br/>
+run command: ng serve (to run the angular application)<br/>
 
 ## Bibliography
 Implement structure:
