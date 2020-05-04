@@ -36,13 +36,13 @@ run command: ng serve (to run the angular application)<br/>
 Implement structure:
 https://dev.to/dileno/build-a-simple-crud-app-with-angular-8-and-asp-net-core-2-2-part-1-back-end-39e1
 
-Implement angular:
-Scratch angular application: https://www.freecodecamp.org/news/angular-8-tutorial-in-easy-steps/
-Datatable:  https://therichpost.com/angular-9-datatables-working-example/
-Dropdown:   https://www.itsolutionstuff.com/post/angular-select-dropdown-exampleexample.html
+Implement angular:<br/>
+Scratch angular application: https://www.freecodecamp.org/news/angular-8-tutorial-in-easy-steps/<br/>
+Datatable:  https://therichpost.com/angular-9-datatables-working-example/<br/>
+Dropdown:   https://www.itsolutionstuff.com/post/angular-select-dropdown-exampleexample.html<br/>
 
-Implement JWT  Web Api Core:
-https://code-maze.com/authentication-aspnetcore-jwt-1/
+Implement JWT  Web Api Core:<br/>
+https://code-maze.com/authentication-aspnetcore-jwt-1/<br/>
 
-Implement authorize in angular:
-https://code-maze.com/authentication-aspnetcore-jwt-2/
+Implement authorize in angular:<br/>
+https://code-maze.com/authentication-aspnetcore-jwt-2/<br/>
