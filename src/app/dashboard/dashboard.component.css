@@ -1,0 +1,6 @@
+.tilebar-border{
+    border-width: thin;
+    border-style: groove;
+    padding: 10px;
+    margin: 10px;
+}

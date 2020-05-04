@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">HR Assessment</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a *ngIf="isLoggedIn$ | async as isLoggedIn" class="nav-link auth" href="/dashboard">Dashboard <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class="nav-item active">
+          <a class="nav-link" href="/consultant/add">Consultant <span class="sr-only">(current)</span></a>
+        </li> -->
+        <li *ngIf="isAuthenticate" class="nav-item dropdown auth">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Consultant
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/consultant/add">Add Consultant</a>
+            <a class="dropdown-item" href="/consultantlist">Consultant List</a>
+          </div>
+        </li>
+        <li *ngIf="isAuthenticate" class="nav-item dropdown auth">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Company
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/company/add">Add Company</a>
+            <a class="dropdown-item" href="/companylist">Company List</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a *ngIf="!isAuthenticate" class="btn btn-outline-success my-2 my-sm-0 noauth" style="margin-right: 10px;" href="/signup">Register</a>
+        <a *ngIf="!isAuthenticate" class="btn btn-outline-success my-2 my-sm-0 noauth" href="/login">Log In</a>
+        <a *ngIf="isAuthenticate" class="btn btn-outline-success my-2 my-sm-0 auth" href="/logout">Logout</a>
+      </form>
+    </div>
+  </nav>
